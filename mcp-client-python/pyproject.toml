@@ -1,0 +1,15 @@
+[project]
+name = "mcp-client-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.50.0",
+    "beautifulsoup4>=4.13.4",
+    "fastapi>=0.115.12",
+    "mcp-use==1.2.12",
+    "mcp[cli]>=1.6.0",
+    "python-dotenv>=1.1.0",
+]
+authors = ["Khant Zwe Naing <your-email@example.com>"]
